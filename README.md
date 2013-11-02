@@ -15,3 +15,6 @@ To get the platform name
 ```
 NSString *platformString = [UIDeviceHardware platformString];
 ```
+
+## Reference
+http://theiphonewiki.com/wiki/Models
