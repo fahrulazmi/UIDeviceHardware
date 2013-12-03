@@ -57,7 +57,8 @@
     if ([platform isEqualToString:@"iPad3,6"])      return @"iPad 4 (CDMA)";
     
     if ([platform isEqualToString:@"iPad4,1"])      return @"iPad Air (WiFi)";
-    if ([platform isEqualToString:@"iPad4,2"])      return @"iPad Air (CDMA)";
+    if ([platform isEqualToString:@"iPad4,2"])      return @"iPad Air (GSM)";
+    if ([platform isEqualToString:@"iPad4,3"])      return @"iPad Air (CDMA)";
     if ([platform isEqualToString:@"iPad4,4"])      return @"iPad Mini Retina (WiFi)";
     if ([platform isEqualToString:@"iPad4,5"])      return @"iPad Mini Retina (CDMA)";
     
