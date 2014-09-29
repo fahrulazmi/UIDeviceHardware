@@ -64,8 +64,9 @@
     if ([platform isEqualToString:@"iPad4,4"])      return @"iPad Mini Retina (WiFi)";
     if ([platform isEqualToString:@"iPad4,5"])      return @"iPad Mini Retina (CDMA)";
     
-    if ([platform isEqualToString:@"i386"])         return @"Simulator";
-    if ([platform isEqualToString:@"x86_64"])       return @"Simulator";
+    if ([platform isEqualToString:@"i386"])         return [UIDevice currentDevice].model;
+    if ([platform isEqualToString:@"x86_64"])       return [UIDevice currentDevice].model;
+    
     return platform;
 }
 
