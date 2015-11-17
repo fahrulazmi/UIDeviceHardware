@@ -73,6 +73,8 @@
     if ([platform isEqualToString:@"iPad5,2"])      return @"iPad Mini 4 (Cellular)";
     if ([platform isEqualToString:@"iPad5,3"])      return @"iPad Air 2 (WiFi)";
     if ([platform isEqualToString:@"iPad5,4"])      return @"iPad Air 2 (Cellular)";
+    if ([platform isEqualToString:@"iPad6,7"])      return @"iPad Pro (WiFi)";
+    if ([platform isEqualToString:@"iPad6,8"])      return @"iPad Pro (Cellular)";
 
     if ([platform isEqualToString:@"i386"])         return [UIDevice currentDevice].model;
     if ([platform isEqualToString:@"x86_64"])       return [UIDevice currentDevice].model;
