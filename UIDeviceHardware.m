@@ -39,6 +39,7 @@
     if ([platform isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
     if ([platform isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
     if ([platform isEqualToString:@"iPhone8,2"])    return @"iPhone 6s Plus";
+    if ([platform isEqualToString:@"iPhone8,4"])    return @"iPhone SE";
 
     if ([platform isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([platform isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";
@@ -73,8 +74,10 @@
     if ([platform isEqualToString:@"iPad5,2"])      return @"iPad Mini 4 (Cellular)";
     if ([platform isEqualToString:@"iPad5,3"])      return @"iPad Air 2 (WiFi)";
     if ([platform isEqualToString:@"iPad5,4"])      return @"iPad Air 2 (Cellular)";
-    if ([platform isEqualToString:@"iPad6,7"])      return @"iPad Pro (WiFi)";
-    if ([platform isEqualToString:@"iPad6,8"])      return @"iPad Pro (Cellular)";
+    if ([platform isEqualToString:@"iPad6,3"])      return @"iPad Pro 9.7-inch (WiFi)";
+    if ([platform isEqualToString:@"iPad6,4"])      return @"iPad Pro 9.7-inch (Cellular)";
+    if ([platform isEqualToString:@"iPad6,7"])      return @"iPad Pro 12.9-inch (WiFi)";
+    if ([platform isEqualToString:@"iPad6,8"])      return @"iPad Pro 12.9-inch (Cellular)";
 
     if ([platform isEqualToString:@"i386"])         return [UIDevice currentDevice].model;
     if ([platform isEqualToString:@"x86_64"])       return [UIDevice currentDevice].model;
