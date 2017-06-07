@@ -69,8 +69,9 @@
     if ([platform isEqualToString:@"iPad4,1"])      return @"iPad Air (WiFi)";
     if ([platform isEqualToString:@"iPad4,2"])      return @"iPad Air (GSM)";
     if ([platform isEqualToString:@"iPad4,3"])      return @"iPad Air (CDMA)";
-    if ([platform isEqualToString:@"iPad4,4"])      return @"iPad Mini Retina (WiFi)";
-    if ([platform isEqualToString:@"iPad4,5"])      return @"iPad Mini Retina (Cellular)";
+    if ([platform isEqualToString:@"iPad4,4"])      return @"iPad Mini 2 (WiFi)";
+    if ([platform isEqualToString:@"iPad4,5"])      return @"iPad Mini 2 (Cellular)";
+    if ([platform isEqualToString:@"iPad4,6"])      return @"iPad Mini 2 (Cellular)";
     if ([platform isEqualToString:@"iPad4,7"])      return @"iPad Mini 3 (WiFi)";
     if ([platform isEqualToString:@"iPad4,8"])      return @"iPad Mini 3 (Cellular)";
     if ([platform isEqualToString:@"iPad4,9"])      return @"iPad Mini 3 (Cellular)";
@@ -82,6 +83,8 @@
     if ([platform isEqualToString:@"iPad6,4"])      return @"iPad Pro 9.7-inch (Cellular)";
     if ([platform isEqualToString:@"iPad6,7"])      return @"iPad Pro 12.9-inch (WiFi)";
     if ([platform isEqualToString:@"iPad6,8"])      return @"iPad Pro 12.9-inch (Cellular)";
+    if ([platform isEqualToString:@"iPad6,11"])     return @"iPad 5 (WiFi)";
+    if ([platform isEqualToString:@"iPad6,12"])     return @"iPad 5 (Cellular)";
 
     if ([platform isEqualToString:@"i386"])         return [UIDevice currentDevice].model;
     if ([platform isEqualToString:@"x86_64"])       return [UIDevice currentDevice].model;
